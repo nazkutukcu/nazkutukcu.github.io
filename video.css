@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.videoModule {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    border: 20px solid #26ccca;
+  }
+  .videoModule video {
+    position: relative;
+      max-width: 100%;
+      outline:none;
+  }
+  @media (max-width:991px){
+    .videoModule video{
+        max-width: 90%;
+    }
+  }
+
+
+
+
+  
+
+   .header{
+	  
+    color:white;
+    font-family: 'VT323', monospace;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    font-size: 40px;
+    width: 100%;
+    
+   
+  
+  }
+   .header img{
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-weight: inherit;
+     font-style: inherit;
+     font-size: 100%;
+     font-family: inherit;
+     vertical-align: baseline;
+     position: relative;
+     
+  }
+ 
+  footer{
+    font-family: "Open Sans",sans-serif;
+    background-image: url(gift/ufo.gif);
+    background-repeat: repeat;
+    padding: 90px 0;
+    color: #fff;
+  
+  }
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0  20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }	
+  
+  .social-media{
+    margin: 20px 0;
+  }
+  
+  .social-media a{
+    color:white;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    
+  }	
+  
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+  }
+  
+
+@media screen and(max-width:960px){
+    .footer-container{
+        max-width: 600px;
+}
+    .right-col{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .left-col{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+     
+ 

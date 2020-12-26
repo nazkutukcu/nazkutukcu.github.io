@@ -1,0 +1,266 @@
+
+   .fwh-slide .header{
+	  
+	   color:white;
+	   font-family: 'VT323', monospace;
+	   background-color: transparent;
+	   position: absolute;
+	   top: 0;
+	   font-size: 40px;
+	   width: 100%;
+	  
+	 
+	 }
+	 .fwh-slide .header img{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-weight: inherit;
+		font-style: inherit;
+		font-size: 100%;
+		font-family: inherit;
+		vertical-align: baseline;
+		position: relative;
+	 }
+	
+		
+	 
+
+	 .fwh-slide{
+		 height: 100vh;
+		 background-image: url(gift/wp3284839.gif);
+		 background-repeat: repeat;
+		 box-sizing: border-box;
+		 }
+
+
+	.duyuru{
+		
+		padding: 0;
+		height: 110vh;
+		background-color: black;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		
+	}
+	.duyuru .duyuru-title{
+		font-family: 'VT323', monospace;
+		text-align:center;
+		color: aliceblue;
+		font-size: 50px;
+		position:relative;
+		margin-top: 20px;
+		
+		}
+	.duyuru li{
+		text-align:center;
+		color: aliceblue;
+		font-size: 20px;
+		font-family: 'Poppins', sans-serif;
+		position:relative;
+
+	
+	}
+	
+    .haber{
+		margin:0;
+		padding: 0;
+        display:flex;
+		align-items: center;
+	    background-color:black;
+		font-family: 'Poppins', sans-serif;
+		height: 100vh;
+		}
+
+		
+	.haber .haber-title{
+		font-family: 'VT323', monospace;
+		text-align:center;
+		color: aliceblue;
+		font-size: 40px;
+		position: relative;
+	
+
+	}
+	
+	.haber p{
+		color: #fff;
+		
+	}
+
+	.haber .card{
+		position:relative;
+		background: #fff;
+		width: 400px;
+		height:500px;
+	    margin: 0 auto;
+	}
+	.haber .card .content{
+		width: 400px;
+		padding:30px;
+		box-sizing: border-box;
+	}
+	.haber .card .content a{
+		display:inline-block;
+		margin:10px 0 0;
+		padding: 10px 20px;
+		text-decoration: none;
+		border:2px solid #000;
+		color:#262626;
+		font-weight: 600;
+
+	}
+	.haber .card .sliderText{
+		position: relative;
+		width: 100%;
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background:#000;
+        
+	}
+	.haber .card .sliderText h3{
+		color:#fff;
+		font-size: 3em;
+	}
+
+    .haber .swiper-slide{
+		width: 400px;
+
+
+	}
+
+	body{
+		margin: 0;
+		padding: 0;
+		
+	}
+	footer{
+		font-family: "Open Sans",sans-serif;
+		background-image: url(gift/ufo.gif);
+		background-repeat: repeat;
+		padding: 90px 0;
+		color: #fff;
+	  
+	  }
+	  .footer-container{
+		max-width: 1300px;
+		margin: auto;
+		padding: 0  20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+	  }	
+	  
+	  .social-media{
+		margin: 20px 0;
+	  }
+	  
+	  .social-media a{
+		color:white;
+		margin-right: 25px;
+		font-size: 22px;
+		text-decoration: none;
+		
+	  }	
+	  
+	  .border{
+		width: 100px;
+		height: 4px;
+		background: #fc5c65;
+	  }
+	  
+
+	@media screen and(max-width:960px){
+		.footer-container{
+			max-width: 600px;
+	}
+	    .right-col{
+			width: 100%;
+			margin-bottom: 60px;
+		}
+        .left-col{
+			width: 100%;
+			text-align: center;
+		}
+   
+	}
+
+	.slider .swiper-container {
+		width: 100%;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	  }
+  
+	 .slider .swiper-slide {
+		background-position: center;
+		background-size: cover;
+		width: 300px;
+		height: 300px;
+  
+	  }
+
+	.slider{
+		background:black;
+		font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		color: #000;
+		margin: 0;
+		padding: 0;
+	}
+
+	.scrollUp{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 35px;
+		color:#fff;
+		text-decoration: none;
+		pointer-events:none;
+		transition: .5s;
+		background: crimson;
+		position: fixed;
+		bottom:16px;
+		right: 32px;
+		height: 60px;
+		width: 60px;
+		border-radius: 5px;
+		opacity: 0;
+	}
+
+	.scrollUp.active{
+		bottom:32px;;
+		pointer-events: auto;
+		opacity: 1;
+		transform: translateY(-55px);
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

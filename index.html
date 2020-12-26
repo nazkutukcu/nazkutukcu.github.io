@@ -1,12 +1,336 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang = "en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+ <link rel="stylesheet" type="text/css" href="web.css">
+ <script type="text/javascript" src="web.js"></script>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&display=swap" rel="stylesheet">  
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="../package/swiper-bundle.min.css">
 </head>
+
+
 <body>
-    <h1>akdkahfkadf</h1>
-    <h1>eslemnur araslan bır harıka bırıdır</h1>
+  
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+
+
+<section class="fwh-slide">
+  <div class="header">
+
+ 
+ <nav class="navbar navbar-expand-lg navbar-dark  ">
+    <a class="navbar-brand" href="#" style="font-size: 40px; text-align: center;">NazSpace</a>
+  <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav" style="right: 0;">
+      <li class="nav-item active">
+        <a class="nav-link" href="hakkında.html" target="_blank">Hakkında <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menü
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="form.html" target="_blank">Form</a>
+          <a class="dropdown-item" href="video.html" target="_blank">Video</a>
+          <a class="dropdown-item" href="musicplayer.html" target="_blank">Music Player</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+</section>
+
+
+
+ <!-- Swiper -->
+ <section class="slider">
+ <div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" style="background-image:url(./img/pexels-aviv-perets-3274903.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(./img/pexels-johannes-plenio-1114900.jpg)"></div>
+    <div class="swiper-slide" style="background-image:url(./img//pexels-pixabay-220201.jpg)"></div>
+  </div>
+
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="../package/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+</script>
+ </section>
+
+
+<!--Haberler-->
+<section class="haber">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <h3 class="haber-title">HABERLER</h3>
+        <div class="card">
+          <div class="sliderText">
+            <p>Goldman Sachs'e göre Apple otomobilden çok araç içi deneyime odaklanacak </p>
+          </div>
+          <div class="content">
+            <p style="color: black;">Apple Card konusunda Apple ile birlikte
+               çalışan ve şirketin partnerleri arasında
+                yer alan Goldman Sachs, yatırımcılarına ilettiği
+                 bir not ile Apple'ın sürücüsüz otomobili değil 
+                 otomobil içinde sunulacak deneyimi önemsediğini paylaştı.</p>
+               <a href='https://webrazzi.com/2020/12/25/goldman-sachs-e-gore-apple-otomobilden-cok-arac-ici-deneyime-odaklanacak/'>Read More</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <p>Elon Musk, zamanında Tesla'yı Apple'a satmak istedi ancak Tim Cook toplantıya gelmedi</p>
+          </div>
+          <div class="content">
+            <p style="color: black;">
+              Tesla CEO'su Elon Musk, dün attığı bir
+               tweet ile Tesla'nın zor zamanlarında 
+               şirketi Apple'a satmak istediğini, ancak
+                Apple CEO'su Tim Cook'un kendisiyle görüşmeyi
+                 reddettiğini söyledi.
+              </p>
+               <a href='https://webrazzi.com/2020/12/23/elon-musk-zamaninda-teslayi-applea-satmak-istedi-ancak-tim-cook-toplantiya-gelmedi/'>Read More</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <p>Discord, mobil cihazlar için ekran paylaşımı özelliğini kullanıma sundu</p>
+          </div>
+          <div class="content">
+            <p style="color:black">Discord tarafından sunulan bu özellik
+               ile birlikte Android veya iOS cihazınızda
+                yer alan Discord uygulaması ile telefonunuzun
+                 ekranını paylaşabileceksiniz.</p>
+               <a href='https://webrazzi.com/2020/12/17/discord-mobil-cihazlar-icin-ekran-paylasimi-ozelligini-kullanima-sundu/'>Read More</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <p>SpaceX'in Starship roket sistemi uzay çöplerinin toplanması için kullanılabilir</p>
+          </div>
+          <div class="content">
+            <p style="color: black;">Time dergisine yaptığı
+               bir açıklamada uzayda roket parçalarının ve ölü
+                uyduların yer aldığını dile getiren SpaceX başkanı
+                 ve COO'su Gwynne Shotwell, SpaceX'in Starship roket
+                  sisteminin uzaydaki çöpleri toplayabileceğini duyurdu. </p>
+               <a href='https://webrazzi.com/2020/11/09/spacex-in-starship-roket-sistemi-uzay-coplerinin-toplanmasi-icin-kullanilabilir/'>Read More</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <p>MIT CSAIL araştırmacıları, doğru antibiyotik seçimi için algoritma geliştirdi</p>
+          </div>
+          <div class="content">
+            <p style="color: black;">MIT araştırmacıları, bir hastanın 
+              idrar yolu enfeksiyonunun birinci veya ikinci basamak
+               antibiyotiklerle tedavi edilme olasılığını tahmin eden
+                bir öneri algoritması geliştirdiklerini açıkladı.
+
+               </p>
+               <a href='https://webrazzi.com/2020/11/05/mit-csail-arastirmacilari-dogru-antibiyotik-secimi-icin-algoritma-gelistirdi/'>Read More</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!--Duyurular-->
+<section class="duyuru">
+  <ul>
+    <p class="duyuru-title">DUYURULAR</p>
+    <li>House of the Dragon çekimlerinin Nisan ayında başlanması bekleniyor. </li> <hr color="aliceblue"/>
+    <li> Mortal Kombat, 16 Nisan 2021’de vizyona girecek. </li> <hr color="aliceblue"/>
+    <li>Zorro'nun dizisi için hazırlıklara başlandı. </li> <hr color="aliceblue"/>
+    <li> Marvel Studios, yeni dizisi Legends'ı resmen duyurdu. Marvel Sinematik Evreni'ndeki en ikonik anlara odaklanacak olan dizi ocak ayında yayınlanacak.</li> <hr color="aliceblue"/>
+  </ul>
+</section>
+        
+
+     
+<!--Swiper Slider Js-->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 30,
+      stretch: 0,
+      depth: 200,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--slider
+<div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 " src="img/1.jpg" alt="First slide" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 " src="img/can.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100  " src="img/bg3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+-->
+
+
+
+
+
+
+
+ 
+
+<!--sayfayı kaydırabilme
+	<table width="5%" class="kaydir"  height="1000px" id="bir"  style="cursor:pointer;">
+	</table>
+	
+-->
+
+<!--footer-->
+
+<footer>
+  <div class="footer-container">
+    <div class="left-col">
+      <div class="social-media">
+        <a href="mailto:nazkutukcu@gmail.com"><i class="fab fa fa-envelope"></i></a>
+        <a href="https://twitter.com/?lang=tr"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/?hl=tr"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nisa-naz-k%C3%BCt%C3%BCk%C3%A7%C3%BC-376518196/" ><i class="fab fa-linkedin-in"></i></a>
+      </div>
+     <p class="right-text">© 2020 Created By Nisa Naz Kütükçü All Rights Reserved.</p>
+    </div>
+
+    <div class="right-col">
+      <h1>Adres</h1>
+      <div class="border"></div>
+      <p>Acıbadem Mah. Şehit Fethi Sok. Üsküdar/İstanbul</p>
+      <p>Tel: 05359734123</p>
+    </div>
+  </div>
+</footer>
+
+
+
+<!--
+<a href="" class="scrollUp">
+  <i class="fa fa chevron-up"></i>
+</a>
+<script >
+  const scrollUp=document.querySelector('.scrollUp');
+  window.addEventListener('.scroll',()=>{
+    if(window.pageXOffset >100){
+      scrollUp.classList.add("active");
+    }
+    else{
+      scrollUp.classList.remove("active");
+    }
+  });
+</script>
+
+-->
+
+
+
+
+
+
+
+
 </body>
-</html>
